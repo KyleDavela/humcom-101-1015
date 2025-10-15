@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+form {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid blue;
+    width: 600px;
+    background-color: lightgrey;
+}
+fieldset {
+    border: 2px solid blue;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.384);
+}
+.PD {
+    width: 100%;
+    height: 20px;
+    font-size: 100%;
+}
+.operation{
+    text-align: right;
+    margin-top: 10px;
+}
+#bio{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    resize: none;
+}
+.operation button{
+    margin-top: 10px;
+    width: 100px;
+}
+.reset{
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 100%;
+    margin-right: 10px;
+}
+.submit{
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 100%;
+}
