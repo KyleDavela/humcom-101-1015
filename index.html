@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="">
+            <fieldset>
+                <legend>Personal Details</legend>
+                Name<br>
+                <input type="text" name="name" class="PD"><br>
+                Email<br>
+                <input type="email" name="email" class="PD" placeholder="name@example.com"><br>
+                Password<br>
+                <input type="password" name="password" class="PD"><br>
+                Age<br>
+                <input type="number" name="age" class="PD" min="1" max="100"><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+                Gender<br>
+                <input type="radio" name="gender" id="Male">Male<br>
+                <input type="radio" name="gender" id="Female">Female<br>
+                <input type="radio" name="gender" id="Other">Other<br>
+                Interests<br>
+                <input type="checkbox" name="interests" id="Web Dev.">Web Development<br>
+                <input type="checkbox" name="interests" id="Design">Design<br>
+                <input type="checkbox" name="interests" id="AI/ML">AI/ML<br>
+                Country<br>
+                <select name="country" id="">
+                    <option value="select" disabled selected>Select Country</option>
+                    <option value="Philippine">Philippine</option>
+                    <option value="india">India</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="uae">UAE</option>
+                </select><br>
+                Short Bio<br>
+                <textarea name="" id="bio" placeholder="tell us a bit about yourself..."></textarea><br>
+            </fieldset>
+            <div class="operation">
+            <button type="reset" class="reset">Reset</button>    
+            <button type="submit" class="submit">Submit</button>
+            </div>
+    </form>
+</body>
+</html>
